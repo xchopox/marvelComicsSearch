@@ -1,0 +1,12 @@
+<ion-view title="Comic Books of {{heroName}}">
+
+  <ion-content class="has-header ">
+  <ion-list>
+      <ion-item ng-repeat="comic in comics" type="item-text-wrap" class="item-avatar" href="#/comicDetail/{{comic.id}}">
+      <img src="{{comic.thumbnail.path+'.'+comic.thumbnail.extension}}"/>
+        {{comic.title}}
+      </ion-item>
+    </ion-list>
+    
+  </ion-content>
+</ion-view>

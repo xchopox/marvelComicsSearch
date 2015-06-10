@@ -1,0 +1,7 @@
+{
+    "name": "Marvel Comics Search",
+    "description": "Un ejemplo de Ionic y Node.js y Angular.js",
+    "repository": "https://github.com/xchopox/marvelComics",
+    "logo": "https://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["marvel","comics", "express", "ionic"]
+}
